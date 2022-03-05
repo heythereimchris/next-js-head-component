@@ -6,12 +6,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Next.js Images | Home</title>
+        <title>Next.js Head Component | Home</title>
         <meta name="keywords" content="ninjas"/>
+        <link rel="canonical" href="https://google.com/" />
+
       </Head>
       <div>
-        <h1 className={styles.title}>Next JS Images Component</h1>
-        <p className={styles.text}>Checkout the cool image in the nav. Let there be images</p>
+        <h1 className={styles.title}>Next JS Head Component</h1>
+        <p className={styles.text}>Next.js built-in component</p>
         <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi impedit suscipit architecto, odio inventore nostrum non neque dicta. Quam magni accusantium culpa distinctio tempore iure accusamus, dolorem nobis odit.</p>
         <Link href="/ninjas/">
           <a className={styles.btn}>Link</a>
